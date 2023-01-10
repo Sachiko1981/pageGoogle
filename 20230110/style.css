@@ -1,0 +1,62 @@
+BODY 
+{
+    margin:auto;
+    text-align: center;
+    min-width:400px;
+    font-size:14px;
+    font-family:arial;
+    padding:0 10px;
+    color: #202124;
+}
+.area1_Button{
+    background :blue;
+    color: #FFF;
+    border: none;
+   
+}  
+
+.area4_Button{
+    border: none;
+   
+}  
+.area1 
+{
+    align-items: center;
+    text-align: right;
+}
+
+
+.area2
+{
+    text-align: center;
+}
+
+.area3 
+{
+    text-align: center;
+}
+
+.area4
+ {
+    text-align: center;
+}
+
+.area5 
+{
+    text-align: center;
+}
+
+.area6
+{
+    text-align: left;
+}
+
+ul{
+    display: flex;
+    text-align: center;
+   }
+   
+li{
+    list-style: none;
+    margin-left: 20px;
+  }
