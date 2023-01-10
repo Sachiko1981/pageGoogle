@@ -1,45 +1,62 @@
-BODY 
-{
-    margin:auto;
+BODY {
+    margin: 10px 10px 10px 5px;
     text-align: center;
     min-width:400px;
-    font-size:14px;
     font-family:arial;
     padding:0 10px;
     color: #202124;
+    font-size: 14px;
 }
-.area1_Button{
-    background :blue;
-    color: #FFF;
-    border: none;
-   
-}  
-
-.area4_Button{
-    border: none;
-   
-}  
-.area1 
-{
+ 
+.area1 {
+    margin: 10px;
+    padding : 6px;
+    font-size:14px;
     align-items: center;
     text-align: right;
 }
 
+.area1_Button {
+    background :blue;
+    font-size:18px;
+    color: #FFF;
+    border: none;
+    padding:10px;
+    display:inline-block;
+    border-radius:5px;
+    text-decoration:none;
+    line-height:1;
+} 
 
-.area2
-{
+
+.area2 {
+    margin: 8px;
+    padding : 6px;
     text-align: center;
 }
 
-.area3 
-{
+.area3 {
+
     text-align: center;
 }
 
-.area4
- {
+.area4 {
+    margin: 20px;
+    padding : 10px;
     text-align: center;
 }
+
+.area4_Button{
+    border: none;
+    background-color: azure;
+    font-size:14px;
+    border: none;
+    padding:10px 30px 10px 30px;
+    display:inline-block;
+    border-radius:5px;
+    text-decoration:none;
+    line-height:1;
+}  
 
 .area5 
 {
@@ -48,7 +65,16 @@ BODY
 
 .area6
 {
+    margin: 10px;
+    padding : 6px;
     text-align: left;
+}
+
+.area7
+{
+    margin: 10px;
+    padding : 6px;
+    text-align: center;
 }
 
 ul{
@@ -59,4 +85,20 @@ ul{
 li{
     list-style: none;
     margin-left: 20px;
+    margin-right: 20px;
   }
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+}
+
+footer{
+    width: 100%;
+    background-color:  azure;
+    color: darkslategray;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
